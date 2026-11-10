@@ -119,8 +119,8 @@ EVAL_USER_ID=<account id> JUDGE=1 python -m eval.run_eval eval/questions.real.js
 
 | Mode | n answerable / unanswerable | hit@k | accuracy (keywords / judge) | false refusal | hallucination |
 |---|---|---|---|---|---|
-| naive | | | | | |
-| hybrid_rerank | | | | | |
+| naive |36/18 |100.0 |90.4-100.0 |0.0-9.6 |0.5-14.2 |
+| hybrid_rerank |36/18 |100.0 |81.9-98.5  |0.5-14.2 |0.5-14.2 |
 
 ## 5. Configuration highlights
 
