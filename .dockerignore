@@ -1,0 +1,16 @@
+.git
+.github
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.zip
+data/uploads/
+data/chroma/
+data/*.sqlite3
+eval/.cache/
+tests/

@@ -1,0 +1,22 @@
+# Exact versions the test suite passed with (Python 3.12, PostgreSQL 16.15 + pgvector 0.6.0).
+# Excludes torch / sentence-transformers, which the tests replace with fakes.
+# Informational: use it to reproduce a known-good environment.
+fastapi==0.162.0
+uvicorn==0.54.0
+python-multipart==0.0.33
+pypdf==5.9.0
+pdfplumber==0.11.10
+python-docx==1.2.0
+pypdfium2==5.14.0
+psycopg==3.3.8
+psycopg-binary==3.3.8
+psycopg-pool==3.3.3
+requests==2.34.2
+python-dotenv==1.2.4
+streamlit==1.67.0
+langgraph==1.2.20
+Pillow==13.0.0
+numpy==2.5.4
+httpx==0.28.1
+pytest==9.2.0
+reportlab==5.0.1

@@ -1,0 +1,27 @@
+# Render blueprint: ONLY the API. The Streamlit UI is deployed separately (Streamlit Community
+# Cloud) and points at this service through its API_URL secret. See DEPLOY.md.
+services:
+  - type: web
+    name: docqa-api
+    runtime: docker
+    plan: starter        # 512 MB is enough with the ONNX models; the free plan sleeps when idle
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL   # your Neon / Render Postgres connection string (needs pgvector)
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: LLM_BASE_URL
+        value: https://api.groq.com/openai/v1
+      - key: LLM_MODEL
+        value: openai/gpt-oss-120b
+      - key: CORS_ORIGINS   # your Streamlit app address, e.g. https://yourapp.streamlit.app
+        sync: false
+      - key: TRUST_PROXY
+        value: "1"
+      - key: WEB_CONCURRENCY
+        value: "1"
+      - key: DAILY_LLM_LIMIT
+        value: "60"

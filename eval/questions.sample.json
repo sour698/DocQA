@@ -1,0 +1,398 @@
+[
+  {
+    "question": "How many days of paid annual leave do full-time employees get each year?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "24 days"
+    ]
+  },
+  {
+    "question": "How many unused annual leave days can be carried forward?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "10 days"
+    ]
+  },
+  {
+    "question": "How far in advance must a leave request longer than 5 consecutive days be submitted?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "14 days"
+    ]
+  },
+  {
+    "question": "Within how many working days does the manager decide on a leave request?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "3 working days"
+    ]
+  },
+  {
+    "question": "How many days of paid sick leave can employees take per year?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "12 days"
+    ]
+  },
+  {
+    "question": "When is a medical certificate required for sick leave?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "2 consecutive"
+    ]
+  },
+  {
+    "question": "How long is maternity leave?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "26 weeks"
+    ]
+  },
+  {
+    "question": "How long is paternity leave?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "10 working days"
+    ]
+  },
+  {
+    "question": "How many days of bereavement leave are given for an immediate family member?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "5 days"
+    ]
+  },
+  {
+    "question": "How many days of paid volunteering leave do employees get per year?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "2 days"
+    ]
+  },
+  {
+    "question": "After how many years of service can an employee request an unpaid career break?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "3 years"
+    ]
+  },
+  {
+    "question": "How many days of paid marriage leave are employees entitled to?",
+    "answerable": true,
+    "source": "Acme_Leave_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "7 days"
+    ]
+  },
+  {
+    "question": "What is the minimum password length?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "14 characters"
+    ]
+  },
+  {
+    "question": "How often must passwords be changed?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "90 days"
+    ]
+  },
+  {
+    "question": "How long is an account locked after repeated failed login attempts?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "30 minutes"
+    ]
+  },
+  {
+    "question": "For which kinds of access is multi-factor authentication mandatory?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "remote access"
+    ]
+  },
+  {
+    "question": "Which tools are used to encrypt company laptops?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "BitLocker"
+    ]
+  },
+  {
+    "question": "Within how long must a lost or stolen device be reported?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "2 hours"
+    ]
+  },
+  {
+    "question": "Who must approve exceptions for USB storage devices?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "CISO"
+    ]
+  },
+  {
+    "question": "Which platform is approved for storing customer data?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "SecureVault"
+    ]
+  },
+  {
+    "question": "Where should suspected phishing emails be forwarded?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "security-reports@acme.example"
+    ]
+  },
+  {
+    "question": "What severity levels are used to grade security incidents?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "P4"
+    ]
+  },
+  {
+    "question": "How often must employees complete security awareness training?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "12 months"
+    ]
+  },
+  {
+    "question": "How long are data backups retained?",
+    "answerable": true,
+    "source": "Acme_IT_Security_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "35 days"
+    ]
+  },
+  {
+    "question": "In which class must flights shorter than 4 hours be booked?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "economy"
+    ]
+  },
+  {
+    "question": "How far in advance must international trips be booked?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "21 days"
+    ]
+  },
+  {
+    "question": "What is the nightly hotel cap in metro cities?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "8,000"
+    ]
+  },
+  {
+    "question": "Through which portal must travel be booked?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 1,
+    "keywords": [
+      "TravelDesk"
+    ]
+  },
+  {
+    "question": "What is the daily meal allowance for domestic travel?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "1,200"
+    ]
+  },
+  {
+    "question": "Within how many days of returning must expense claims be submitted?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "30 days"
+    ]
+  },
+  {
+    "question": "Above what amount are receipts mandatory for a single expense?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "500"
+    ]
+  },
+  {
+    "question": "How soon is reimbursement paid after a claim is approved?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 2,
+    "keywords": [
+      "10 working days"
+    ]
+  },
+  {
+    "question": "What is the reimbursement rate for personal car use?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "12 rupees"
+    ]
+  },
+  {
+    "question": "What is the maximum reimbursement for airport taxis per trip?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "1,500"
+    ]
+  },
+  {
+    "question": "When is business class allowed?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "8 hours"
+    ]
+  },
+  {
+    "question": "Is alcohol reimbursable?",
+    "answerable": true,
+    "source": "Acme_Travel_Expense_Policy.pdf",
+    "page": 3,
+    "keywords": [
+      "not reimbursable"
+    ]
+  },
+  {
+    "question": "What is the stock option vesting schedule?",
+    "answerable": false
+  },
+  {
+    "question": "How many days per week can employees work from home?",
+    "answerable": false
+  },
+  {
+    "question": "What is the dress code policy?",
+    "answerable": false
+  },
+  {
+    "question": "What is the salary band for a senior engineer?",
+    "answerable": false
+  },
+  {
+    "question": "Who is the CEO of Acme Technologies?",
+    "answerable": false
+  },
+  {
+    "question": "What relocation assistance does Acme provide?",
+    "answerable": false
+  },
+  {
+    "question": "How much is the annual performance bonus?",
+    "answerable": false
+  },
+  {
+    "question": "What is on the cafeteria menu on Fridays?",
+    "answerable": false
+  },
+  {
+    "question": "What is the notice period when an employee resigns?",
+    "answerable": false
+  },
+  {
+    "question": "Does Acme provide health insurance for employees' parents?",
+    "answerable": false
+  },
+  {
+    "question": "What is the policy on using personal phones for work calls?",
+    "answerable": false
+  },
+  {
+    "question": "How many public holidays does Acme observe each year?",
+    "answerable": false
+  },
+  {
+    "question": "What is the daily meal allowance for international travel?",
+    "answerable": false
+  },
+  {
+    "question": "How many days of paid adoption leave do employees get?",
+    "answerable": false
+  },
+  {
+    "question": "What is the hotel cap per night in non-metro cities?",
+    "answerable": false
+  },
+  {
+    "question": "How long are email archives retained?",
+    "answerable": false
+  },
+  {
+    "question": "How often must contractors change their passwords?",
+    "answerable": false
+  },
+  {
+    "question": "What is the reimbursement rate for motorbike use?",
+    "answerable": false
+  }
+]

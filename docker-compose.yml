@@ -1,0 +1,35 @@
+# Local / single-server stack:  docker compose up -d --build   ->  http://localhost:7860
+# Put real values in .env first (LLM_API_KEY, AUTH_SECRET, POSTGRES_PASSWORD).
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: docqa
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-docqa}
+      POSTGRES_DB: docqa
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./deploy/initdb:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "127.0.0.1:5432:5432" # only this machine can reach the database
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U docqa -d docqa"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  app:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://docqa:${POSTGRES_PASSWORD:-docqa}@db:5432/docqa
+    ports:
+      - "7860:7860"
+
+volumes:
+  pgdata:

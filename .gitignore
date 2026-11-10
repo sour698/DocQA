@@ -1,0 +1,30 @@
+# secrets and local state - never commit these
+.env
+.env.*
+!.env.example
+*.zip
+*.sqlite3
+*.sqlite3-*
+
+# runtime data (keep only the bundled sample documents)
+data/*
+!data/.gitkeep
+!data/sample_docs/
+
+# eval outputs that depend on your own questions / runs
+eval/results.json
+eval/results.md
+eval/failures.md
+eval/retrieval_results.md
+eval/questions.json
+eval/questions.real.json
+eval/unanswerable.mine.json
+eval/feedback_candidates.json
+eval/.cache/
+
+# python / tooling
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/

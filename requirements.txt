@@ -1,0 +1,5 @@
+# Frontend only (Streamlit Community Cloud installs this file). The backend's packages are in
+# requirements-api.txt; the UI talks to it over HTTP and imports nothing from it.
+streamlit[pdf]>=1.49,<2
+requests>=2.31,<3
+extra-streamlit-components>=0.1.71,<1

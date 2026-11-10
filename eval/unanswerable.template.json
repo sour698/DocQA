@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the company's policy on remote work from another country?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "How much is the annual performance bonus for senior managers?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "Does the company reimburse home internet costs?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "How many days of bereavement leave do employees get?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "What is the dress code for client meetings?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "Which vendor supplies the company laptops?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "What is the maximum hotel rate for international travel to Japan?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "Are employees allowed to use personal USB drives on office computers?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "What is the notice period for resignation?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  },
+  {
+    "question": "How many days of paternity leave are offered?",
+    "answerable": false,
+    "note": "CHECK by hand that no document answers this before using it"
+  }
+]

@@ -1,0 +1,23 @@
+# Streamlit settings for the DocQA dashboard. Streamlit reads this file from the folder it is
+# started in (Streamlit Community Cloud: the repository root), so keep it next to streamlit_app.py.
+
+[theme]
+base = "dark"
+primaryColor = "#8264ff"
+backgroundColor = "#080d19"
+secondaryBackgroundColor = "#101830"
+textColor = "#e6e9f2"
+
+[server]
+headless = true
+# The uploader shows this limit to users. Keep it equal to MAX_UPLOAD_MB on the API (a test checks it).
+maxUploadSize = 10
+enableXsrfProtection = true
+enableCORS = true
+
+[client]
+showErrorDetails = "none"
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

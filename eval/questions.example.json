@@ -1,0 +1,13 @@
+[
+  {
+    "question": "REPLACE: a question whose answer is in one of your PDFs",
+    "answerable": true,
+    "source": "your_file.pdf",
+    "page": 3,
+    "keywords": ["a short exact fact that must appear in a correct answer"]
+  },
+  {
+    "question": "REPLACE: a question that your PDFs do NOT answer (tests refusal)",
+    "answerable": false
+  }
+]
